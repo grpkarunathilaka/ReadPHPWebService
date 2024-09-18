@@ -64,22 +64,7 @@ namespace ReadPHPWebService
                         }
                 }
                 list.Add(result);
-            }
-
-            //string xfaNamespace = "{http://www.xfa.org/schema/xfa-template/2.6/}";
-            //XNamespace xNamespace = "http://www.w3.org/2001/XMLSchema-instance";
-            //var result = output.Descendants(xNamespace + "item");
-                                    //.Where(x => x.Attribute(xNamespace + "type").Value == "ns2:Map").Select(x => x);
-            //.Descendants("lv2")
-            //.Where(x => x.Attribute("value").Value == "bb")
-            //.Descendants("lv3")
-            //.Select(x => new
-            //{
-            //    Name = x.Attribute("name").Value,
-            //    Value = x.Attribute("value").Value
-            //});
-
-            string aa = string.Empty;
+            }          
 
         }
     }
